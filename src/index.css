@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@reference "tailwindcss";
+
+/* Optional: define your custom tokens so classes like text-tealAccent/font-inter work */
+@theme {
+  --color-tealAccent: #573AB0;
+  --font-inter: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-poppins: "Poppins", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-neutral-900 text-neutral-100 antialiased;
+}
+
+.container-responsive {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.btn-primary {
+  @apply inline-flex items-center gap-2 rounded-lg bg-tealAccent text-neutral-900 font-medium px-5 py-3 transition-transform hover:-translate-y-0.5 hover:shadow-lg;
+}
+
+.btn-outline {
+  @apply inline-flex items-center gap-2 rounded-lg border border-tealAccent text-tealAccent px-5 py-3 transition-colors hover:bg-tealAccent hover:text-neutral-900;
+}
