@@ -31,16 +31,17 @@ export default function About() {
             I'm Ommkar, a Computer Science and Engineering student with a strong interest in Machine Learning and Web Development. I enjoy building intelligent, efficient systems that solve real-world problems. I’m always eager to learn new technologies and apply them creatively through projects and collaborations.
           </p>
           <div className="mt-6">
+          <div className="mt-6">
             <a
               className="btn-primary"
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                alert('Resume download is a placeholder. Link your PDF in code.');
-              }}
+              href="https://docs.google.com/document/d/1Ry91eJPwnYHBiYpG_1un0RS78VG0uTaStf8b4JGfe-M/edit?usp=sharing"  
+              download
+              target="_blank"
+              rel="noopener"
             >
-              Download Resume
+              View Resume
             </a>
+          </div>
           </div>
         </motion.div>
       </div>
