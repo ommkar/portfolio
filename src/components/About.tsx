@@ -14,7 +14,7 @@ export default function About() {
           <div className="relative">
             <div className="w-40 h-40 sm:w-48 sm:h-48 rounded-full bg-gradient-to-tr from-tealAccent/30 to-transparent p-1">
               <div className="w-full h-full rounded-full bg-neutral-800 flex items-center justify-center text-neutral-400 text-sm">
-                <img src="https://media.licdn.com/dms/image/v2/D5603AQHQ64yacswjng/profile-displayphoto-scale_400_400/B56ZesdWwjGQAg-/0/1750945067780?e=1763596800&v=beta&t=Q4lVby2a2rIkl0bwoiSw9OPE2o3YTLfFaQkqlR3SxEU" alt="Profile Photo" className="w-full h-full object-cover rounded-full" />
+                <img src="/pfp1.jpg" alt="Profile Photo" className="w-full h-full object-cover rounded-full" />
               </div>
             </div>
           </div>
